@@ -14,9 +14,3 @@ export interface ICharacter {
   origin: IObject;
   location: IObject;
 }
-
-export enum speciesEnum{
-  ALL = '',
-  HUMAN = 'Human',
-  ALIEN = 'Alien',
-}

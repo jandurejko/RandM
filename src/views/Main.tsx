@@ -63,7 +63,7 @@ const Main = (): JSX.Element => {
       {!accepted && (
         <StyledPopup>
           <Column>
-            <Text text={'This text is pointless, you don\'t have options. So please accept the terms and enjoy some R&M charecters'} />
+            <Text text={'This text is pointless, you don\'t have options. So please accept the terms and enjoy some R&M characters'} />
             <Row justify={'center'} gap={10}>
               <Button text={'I accept'} onClick={onClick} />
               <Button text={'I accept a bit less'} onClick={onClick} />

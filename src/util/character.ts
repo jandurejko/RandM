@@ -2,13 +2,11 @@ export function getSpeciesParameter(raceParameter: string, statusParameter: stri
   let url = ''
 
   if (raceParameter === 'All') {
-
   } else {
     url += `species=${raceParameter}&`
   }
 
   if (statusParameter === 'All') {
-
   } else {
     url += `status=${statusParameter}&`
   }

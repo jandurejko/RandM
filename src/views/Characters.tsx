@@ -47,7 +47,7 @@ const Characters = (): JSX.Element => {
   }, [speciesQueryValue, statusValue])
 
   if (!characters) {
-    return <div>Error</div>
+    return <div></div>
   }
 
   const onClick = () => {
